@@ -4,6 +4,25 @@ class Pepper extends Seasoning{}
 class Thyme extends seasoning{}
 class Sage extends seasoning{}
 
+abstract class Point{}
+class CartesianPt extends Point{
+	int x;
+	int y;
+	CartesianPt(int _x, int _y){
+	x = _x;
+	y = _y;
+	}
+}
+
+class ManhattanPt extends Point{
+	int x;
+	int y:
+	ManhattanPt(int _x, int _y){
+	x = _x;
+	y = _y;
+	}
+}
+
 abstract class Num{}
 class Zero extends Num{}
 class OneMoreThan extends Num{

@@ -1,0 +1,17 @@
+abstract class Seasoning{}
+class Salt extends Seasoning{}
+class Pepper extends Seasoning{}
+class Thyme extends seasoning{}
+class Sage extends seasoning{}
+
+abstract class Num{}
+class Zero extends Num{}
+class OneMoreThan extends Num{
+	Num predecessor;
+	OneMoreThan(Num _p){
+	predecessor = _p;
+	}
+}
+
+
+

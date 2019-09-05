@@ -3,8 +3,8 @@ public class aLittleJava {
 	abstract class Seasoning{}
 	class Salt extends Seasoning{}
 	class Pepper extends Seasoning{}
-	class Thyme extends seasoning{}
-	class Sage extends seasoning{}
+	class Thyme extends Seasoning{}
+	class Sage extends Seasoning{}
 
 	abstract class Point{}
 	class CartesianPt extends Point{
@@ -18,7 +18,7 @@ public class aLittleJava {
 
 	class ManhattanPt extends Point{
 		int x;
-		int y:
+		int y;
 		ManhattanPt(int _x, int _y){
 		x = _x;
 		y = _y;
@@ -34,13 +34,16 @@ public class aLittleJava {
 		}
 	}
 
-	astract int distanceTo0()
+	abstract int distanceTo0();
+	
 	int distanceTo(){
 		return (int) Math.sqrt(x*x+y*y);
 	}
 	int distanceTo(){
-		return x + y
+		return x + y;
 	}
+
+
 	public static main(){
 
 	}
